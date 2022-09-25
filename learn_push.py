@@ -1,8 +1,10 @@
-from ast import main
-from unicodedata import name
-import alfred
 
+from time import sleep
+
+import time
 
 
 if __name__=="__main__":
-    pass
+    for i in range(10):
+        print(i)
+        time.sleep(0.5)
